@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "lcms-ocr"
+version = "0.1.0"
+description = ""
+authors = ["daunzhi <wangduanzhi_ext@c12.ai>"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+opencv-python = "^4.12.0.88"
+pandas = "^2.3.3"
+pytesseract = "^0.3.13"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
